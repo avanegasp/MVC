@@ -1,0 +1,9 @@
+<h1>Hola Amigos</h1>
+
+<ul>
+  <%@users.each do |user|%>
+    <li>
+      <p>Hola mi nombre es <%= user.name%> y tengo <%= user.age%> años</p>
+    </li>
+  <%end%>
+</ul>
